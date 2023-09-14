@@ -43,4 +43,22 @@
         </tr>
     </table>
 
+
     <hr>
+    <h1>Code display</h1>
+    <blockquote cite="https://stackoverflow.com/questions/52000598/sass-how-to-change-color-for-all-links-under-a-class">sass how to change color for all links under a class?</blockquote>
+    <a href="https://stackoverflow.com/questions/52000598/sass-how-to-change-color-for-all-links-under-a-class">Stack solution</a>
+    <pre>
+        $a-tags: 'a, a:active, a:hover, a:visited';
+        $a-tags-hover: 'a:active, a:hover';
+ 
+        #{$a-tags} {
+        color: red;
+        text-decoration: none;
+        }
+        #{$a-tags-hover} {
+        color: blue;
+        }
+    </pre>
+    <a href="https://css-tricks.com/snippets/sass/sass-things-links/">snipet link</a>
+
